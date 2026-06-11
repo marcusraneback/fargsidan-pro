@@ -4,6 +4,10 @@ import os
 import re
 import requests
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Läs in .env-filen automatiskt
+load_dotenv()
 
 # ─────────────────────────────────────────
 #  KONFIGURATION
