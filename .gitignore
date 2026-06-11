@@ -1,0 +1,15 @@
+# Miljövariabler – lägg ALDRIG din API-nyckel här
+.env
+*.env
+
+# Genererade artiklar (valfritt – ta bort raden om du vill committa artiklarna)
+articles/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
